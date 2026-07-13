@@ -1,4 +1,8 @@
 import { perguntar, fecharLeitura } from '../utils/Funcoes_auxiliares';
+import { exibirMenuAutores } from '../controllers/autorController';
+import { exibirMenuLivros } from '../controllers/livroController';
+import { exibirMenuClientes } from '../controllers/clienteController';
+import { exibirMenuEmprestimos } from '../controllers/emprestimoController';
 
 export async function exibirMenuPrincipal(): Promise<void> {
   let continuar = true;
@@ -16,16 +20,16 @@ export async function exibirMenuPrincipal(): Promise<void> {
 
     switch (opcao) {
       case '1':
-        console.log('Autores (ainda vamos implementar)');
+        await exibirMenuAutores();
         break;
       case '2':
-        console.log('Livros (ainda vamos implementar)');
+        await exibirMenuLivros();
         break;
       case '3':
-        console.log('Clientes (ainda vamos implementar)');
+        await exibirMenuClientes();
         break;
       case '4':
-        console.log('Empréstimos (ainda vamos implementar)');
+        await exibirMenuEmprestimos();
         break;
       case '5':
         console.log('Relatórios (ainda vamos implementar)');
