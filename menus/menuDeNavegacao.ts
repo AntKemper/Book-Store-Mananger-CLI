@@ -3,6 +3,7 @@ import { exibirMenuAutores } from '../controllers/autorController';
 import { exibirMenuLivros } from '../controllers/livroController';
 import { exibirMenuClientes } from '../controllers/clienteController';
 import { exibirMenuEmprestimos } from '../controllers/emprestimoController';
+import { exibirMenuRelatorios } from '../controllers/relatorioController';
 
 export async function exibirMenuPrincipal(): Promise<void> {
   let continuar = true;
@@ -32,7 +33,7 @@ export async function exibirMenuPrincipal(): Promise<void> {
         await exibirMenuEmprestimos();
         break;
       case '5':
-        console.log('Relatórios (ainda vamos implementar)');
+        await exibirMenuRelatorios();
         break;
       case '0':
         console.log('Encerrando...');
