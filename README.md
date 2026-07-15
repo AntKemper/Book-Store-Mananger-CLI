@@ -1,4 +1,12 @@
 descrição do projeto;
+# Book Store Manager CLI
+
+O Book Store Manager é um sistema de gerenciamento de Bibliotecas, desenvolvido com tecnologias de ultima geração, garantem um gerenciamento do acervo de forma facil e intuitiva.
+
+
+
+
+
 objetivo;
 tecnologias utilizadas;
 requisitos para execução;
