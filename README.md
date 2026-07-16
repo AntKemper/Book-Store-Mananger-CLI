@@ -39,19 +39,31 @@ Com o PostGreSql instalado, encontre o aplicativo PgAdmin, nele você vai precis
 
 ## Instalação;  
 
-1. Clone o projeto do GitHub, digitando no terminal de comando do VSCode “Git clone https://github.com/AntKemper/Book-Store-Mananger-CLI.git “ 
+1. Clone o projeto do GitHub, digitando no terminal de comando do VSCode
+  
+```
+   Git clone https://github.com/AntKemper/Book-Store-Mananger-CLI.git
+```
 
-2. Digite no terminal do VSCode.
+2. Entre na pasta Book-Store-Mananger-CLI com o editor de codigo ou digite no terminal:
 
-    ```
+```
+   cd Book-Store-Mananger-CLI
+```
 
-    npm install
+3. Digite no terminal do editor de codigo.
+```
+   npm install
+```
 
-em seguida 
+   
 
-  ```
-     code .
- ```
+4. Abra o arquivo no editor de codigo ou digite no terminal:
+
+
+```
+   code .
+```
 
  
 Pronto irá abrir os arquivos no VSCode. 
@@ -59,13 +71,14 @@ Pronto irá abrir os arquivos no VSCode.
 ## Execução: 
 
 1. Vá na raiz do arquivo “BOOK-STORE-MANAGER-CLI, crie um arquivo chamado  .env, dentro dele cole o script abaixo e configure:
-```
+````
 PGHOST=localhost 
 PGPORT=5432 (porta deve ser a mesma do pgadmin )
 PGUSER=postgres (Esse é o padrão se você mudou use ele.)
 PGPASSWORD=XXX  (aqui digite a senha do PostgreSql )
-PGDATABASE=book_store_manager 
-```
+PGDATABASE=book_store_manager
+````
+
 Deve ficar neste formato:
 ```
 PGHOST=localhost 
