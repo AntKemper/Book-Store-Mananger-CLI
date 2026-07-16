@@ -78,11 +78,11 @@ INSERT INTO livros (titulo, autor_id, quantidade_total, quantidade_disponivel) V
 ('Memórias do Subsolo', 1, 4, 4),
 ('O Jogador', 1, 3, 3),
 ('Recordações da Casa dos Mortos', 1, 2, 2),
-('Noites Brancas', 1, 3, 3),
+('Noites Brancas', 1, 3, 3);
 
 
 INSERT INTO clientes (nome) VALUES
 ('Antonio Kemper'),
 ('Prof. Davi'),
 ('SC Tec'),
-('Vanderlei Monitor'),
+('Vanderlei Monitor');
