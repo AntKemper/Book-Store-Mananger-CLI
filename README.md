@@ -116,6 +116,10 @@ Book_Store_Manager_CLI/
 ├── utils/           # Funções auxiliares (leitura do terminal)
 └── .env             
 ```
+<img width="797" height="472" alt="image" src="https://github.com/user-attachments/assets/0ebbc906-5691-4082-84a9-a407498c3ed2" />
+
+figura 01 - Mapa visual da estrutura do Banco de Dados.
+
 ## Funcionalidades implementadas:
 
 ### 1. Gerenciamento de Autores;
